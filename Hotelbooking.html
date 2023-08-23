@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Hotelbooking.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking System</title>
+</head>
+<body>
+  <h1>Hotel Booking System</h1>
+  <form action="Hotelbooking.py" method="post">
+    <div>
+      <label for="room_type">Room Type</label>
+      <select name="room_type">
+        <option value="Single">Single</option>
+        <option value="Double">Double</option>
+        <option value="Suite">Suite</option>
+      </select>
+    </div>
+    <div>
+      <label for="number_of_rooms">Number of Rooms</label>
+      <input type="number" name="number_of_rooms" min="1" max="10">
+    </div>
+    <div>
+      <label for="check_in_date">Check-in Date</label>
+      <input type="date" name="check_in_date">
+    </div>
+    <div>
+      <label for="check_out_date">Check-out Date</label>
+      <input type="date" name="check_out_date">
+    </div>
+    <div>
+      <label for="guest_name">Guest Name</label>
+      <input type="text" name="guest_name">
+    </div>
+    <div>
+      <label for="guest_email">Guest Email</label>
+      <input type="email" name="guest_email">
+    </div>
+    <div>
+      <label for="guest_phone">Guest Phone</label>
+      <input type="tel" name="guest_phone">
+    </div>
+    <div>
+      <input type="submit" value="Book Now">
+      <link rel="Hotelbookingsheet" href="Hotelbooking.css">
+    </div>
+  </form>
+</body>
+</html>
+
+
